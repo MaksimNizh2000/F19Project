@@ -23,10 +23,12 @@ section {
 	float: right;
 }
 
-section h2 {
-	font-size: 130%;
+section h1 {
 	color: #800000;
-	padding-top: .5em;
+}
+
+section h2 {
+	font-size: 110%;
 	padding-bottom: .25em;
 }
 
@@ -53,8 +55,6 @@ section li {
 article {
 	padding-top: .5em;
 	padding-bottom: .5em;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
 }
 
 article img {
