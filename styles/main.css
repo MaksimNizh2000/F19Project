@@ -17,6 +17,56 @@ body {
 	background-color: palegoldenrod;
 }
 
+#nav_menu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+}
+
+#nav_menu:after {
+	content: "\A";
+	clear: both;
+	display: block;
+}
+
+#nav_menu li {
+	float: left;
+}
+
+#nav_menu li a.current {
+	color: yellow;
+}
+
+#nav_menu li a {
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+}
+
+#submenu:hover ul {
+	display: block;
+}
+
+#nav_menu li ul {
+	display: none;
+	list-style-type: none;
+	position: absolute;
+	top: 100%;
+}
+
+#nav_menu li ul li {
+	float: none;
+}
+
+
+
 /* section element code */
 section {
 	width: 525px;
@@ -43,6 +93,7 @@ section blockquote {
 section ul {
 	padding-left: 1.25em;
 	padding-bottom: .5em;
+	list-style-type: circle;
 }
 
 section li {
