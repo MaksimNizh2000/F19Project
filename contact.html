@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DEVELOPER: Maksim Nizhegorodtsev, IS117-005, Fall 2019 -->
+
+<head>
+	<meta charset="utf-8">
+	<title>Nintendo Switch</title>
+	<link rel="shortcut icon" href="images/switch_favicon.ico">
+	<link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+<header>
+	<a href="index.html">
+		<img src="images/switch_logo.png" alt="Nintendo Switch logo" height="80">
+	</a>
+	<ul id="nav_menu">
+		<li><a href="index.html">Home</a></li>
+		<li id="submenu">
+			<a href="">Games</a>
+			<ul>
+				<li><a href="games/zelda.html">Breath of the Wild</a></li>
+				<li><a href="games/mario.html">Super Mario Odyssey</a></li>
+				<li><a href="games/pokemon.html">Pokémon: Sword and Shield</a></li>
+			</ul>
+		</li>
+		<li><a class="current" href="contact.html">Contact</a></li>
+		<li><a href="https://www.amazon.com/s?k=nintendo+switch+bundle+2019">Buy Now</a></li>
+	</ul>
+</header>
+
+<main>
+	<section>
+		<h1>CONTACT US</h1>
+		<p>Questions? Send us a message below!</p>
+
+		<form action="the_abyss" method="post">
+			<ul>
+				<li>
+					<label for="name">NAME</label>
+					<input type="text" id="name" name="sender_name">
+				</li>
+				<li>
+					<label for="email">E-MAIL</label>
+					<input type="email" id="email" name="sender_email">
+				</li>
+				<li>
+					<label for="msg">MESSAGE</label>
+					<textarea id="msg" name="sender_message"></textarea>
+				</li>
+			</ul>
+		</form>
+		<a id="buynowbutton" href="">SEND</a>
+
+	</section>
+</main>
+
+<footer>
+	<p>Nintendo Switch is owned by Nintendo. Its games are owned by their respective developers.</p>
+	<p>This website is for a school project and does not claim ownership of content within.</p>
+</footer>
+</body>
+</html>

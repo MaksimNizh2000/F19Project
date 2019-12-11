@@ -1,76 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- DEVELOPER: Maksim Nizhegorodtsev, IS117-005, Fall 2019 -->
 
 <head>
 	<meta charset="utf-8">
-	<title>San Joaquin Valley Town Hall</title>
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="stylesheet" href="styles/normalize.css">
+	<title>Nintendo Switch</title>
+	<link rel="shortcut icon" href="images/switch_favicon.ico">
 	<link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
 	<header>
-		<img src="images/town_hall_logo.gif" alt="Town Hall logo" height="80">
-		<h2>San Joaquin Valley Town Hall</h2>
-		<h3>Celebrating our <em class="shadow">75<sup>th</sup></em> Year</h3>
+		<a href="index.html">
+			<img src="images/switch_logo.png" alt="Nintendo Switch logo" height="80">
+		</a>
+		<ul id="nav_menu">
+			<li><a href="index.html" class="current">Home</a></li>
+			<li id="submenu">
+				<a href="">Games</a>
+				<ul>
+					<li><a href="games/zelda.html">Breath of the Wild</a></li>
+					<li><a href="games/mario.html">Super Mario Odyssey</a></li>
+					<li><a href="games/pokemon.html">Pokémon: Sword and Shield</a></li>
+				</ul>
+			</li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="https://www.amazon.com/s?k=nintendo+switch+bundle+2019">Buy Now</a></li>
+		</ul>
 	</header>
-
-	<ul id="nav_menu">
-		<li><a href="../index.html" class="current">Home</a></li>
-		<li><a href="../speakers.html">Speakers</a></li>
-		<li><a href="../luncheons.html">Luncheons</a></li>
-		<li><a href="../tickets.html">Tickets</a></li>
-		<li id="submenu">
-			<a href="../about.html">About Us</a>
-			<ul>
-				<li><a href="">Our History</a></li>
-				<li><a href="">Board of Directors</a></li>
-				<li><a href="">Past Speakers</a></li>
-				<li><a href="">Contact Information</a></li>
-			</ul>
-		</li>
-	</ul>
 
 	<main>
 		<section>
-		<h1>Our Mission</h1>
-		<p>San Joaquin Valley Town Hall is a non-profit organization that is run by an all-volunteer board of directors. Our mission is to bring nationally and internationally renowned, thought-provoking speakers who inform, educate, and entertain our audience! As one or our members told us:</p>
-		<blockquote>&quot;Each year I give a ticket package to each of our family members. I think of it as the gift of knowledge...and that is priceless.&quot;</blockquote>
+			<img id="imgheader" src="images/switch_banner.png" alt="Page Header with text 'Nintendo Switch'">
+			<img src="images/switch_product.jpg" alt="Nintendo Switch Dock and Controller">
+			<p>
+				From the long time gaming console innovator Nintendo comes the Nintendo Switch:
+				a hybrid handheld and home console. Easily and comfortably switch between playing at
+				home and on the go. Designed for both veteran and casual gamers, young and old, the
+				Nintendo Switch offers a wide selection of games to suit all tastes and styles.
+				Nintendo Switch is the most affordable console currently on the mainstream gaming
+				console market.
+			</p>
+			<a id="buynowbutton" href="https://www.amazon.com/s?k=nintendo+switch+bundle+2019">BUY NOW</a>
 
-			<h1>Speaker of the Month</h1>
-
-			<article>
-				<h2>Fossil Threads in the Web of Life</h2>
-				<img src="images/sampson_dinosaur.jpg">
-				<h3>February<br>Scott Sampson</h3>
-				<p>What's 75 million years old and brand spanking new? A teenage Utahceratops! Come to the Saroyan, armed with your best dinosaur roar, when Scott Sampson, Research Curator at the Utah Museum of Natural History, steps to the podium. Sampson's research has focused on the ecology and evolution of late Cretaceous dinosaurs and he has conducted fieldwork in a number of countries in Africa.</p>
-				<p><a href="speakers/sampson.html">Read more.</a>&nbsp;<a href="media/sampson.swf" target="_blank">Or play video.</a></p>
-			</article>
-
-		<h2>Our Ticket Packages</h2>
-		<ul>
-			<li>Season Package: $95</li>
-			<li>Patron Package: $200</li>
-			<li>Single Speaker: $25</li>
-		</ul>
 		</section>
 
-		<aside>
-		<h2 id="speakerHeader">Guest speakers</h2>
-		<h2>October<br><a href="speakers/toobin.html">Jeffrey Toobin</a></h2>
-		<img src="images/toobin75.jpg">
-		<h2>November<br><a href="speakers/sorkin.html">Andrew Ross Sorkin</a></h2>
-		<img src="images/sorkin75.jpg">
-		<h2>January<br><a href="speakers/chua.html">Amy Chua</a></h2>
-		<img src="images/chua75.jpg">
-		<h2>February<br><a href="speakers/sampson.html">Scott Samspon</a></h2>
-		<img src="images/sampson75.jpg">
-		</aside>
+		<section>
+			<a href="games/zelda.html" class="card">
+				<img src="images/zelda_card.jpg" alt="Breath of the Wild landscape">
+				<p>EXPLORE A VAST WORLD</p>
+			</a>
+			<a href="games/mario.html" class="card">
+				<img src="images/mario_card.jpg" alt="Super Mario Odyssey promotional art">
+				<p>VENTURE THROUGH KINGDOMS</p>
+			</a>
+			<a href="games/pokemon.html" class="card">
+				<img src="images/pokemon_card.jpg" alt="Pokemon promotional art">
+				<p>COLLECT MAGICAL PETS</p>
+			</a>
+		</section>
 
 	</main>
+
 	<footer>
-		<p>&copy; Maksim Nizhegorodtsev 2019, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+		<p>Nintendo Switch is owned by Nintendo. Its games are owned by their respective developers.</p>
+		<p>This website is for a school project and does not claim ownership of content within.</p>
 	</footer>
 </body>
 </html>
